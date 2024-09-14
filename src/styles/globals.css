@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; */
+}
+
+@font-face {
+  font-family: PTSans-Bold;
+  src: url(../assets/fonts/PTSans-Bold.ttf)
+}
+
+@font-face {
+  font-family: PTSans-BoldItalic;
+  src: url(../assets/fonts/PTSans-BoldItalic.ttf)
+}
+
+@font-face {
+  font-family: PTSans-Italic;
+  src: url(../assets/fonts/PTSans-Italic.ttf)
+}
+
+@font-face {
+  font-family: PTSans-Regular;
+  src: url(../assets/fonts/PTSans-Regular.ttf)
+}
+
+* {
+  font-family: PTSans-Regular;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-family: PTSans-Regular;
+}
+
+body {
+  font-family: PTSans-Regular !important;
+  background: #fff;
+  z-index: 0;
+  font-weight: 400;
+  color: #212529;
+}
+
+a,
+a:hover {
+  text-decoration: none !important
+}
+
+/* ol,
+ul {
+  padding-left: 2rem;
+} */
+
+/* ul {
+  list-style-type: disc;
+} */
+
+/* ul ul {
+  list-style-type: circle;
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0B51B3;
+  border-radius: 10px;
+}
+
+.color-blue {
+  color: #0559ab;
+}
+
+.color-orange {
+  color: #be8802;
+}
+
+.primary-btn {
+  background-color: #0554ab;
+  color: #fff;
+  padding: 5px 40px;
+  margin: 20px 0px;
+  font-size: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.primary {
+  background-color: #0054a5;
+  color: #fff;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
+.color-ligt-green {
+  color: #087625;
+}
+
+.color-ligt-green-rupee {
+  color: #087625;
+  font-family: Roboto;
+}
+
+.container {
+  max-width: 1400px !important;
+  margin: auto !important;
+  /* padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; */
+}
+
+
+
+input, select, textarea {
+  /* font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit; */
+  font-size: 15px;
+  /* font-weight: inherit;
+  line-height: inherit; */
+  margin: 0;
+  padding: 7px;
+  outline: none;
+  padding-left: 30px !important;
+  border-radius: 3px;
+}

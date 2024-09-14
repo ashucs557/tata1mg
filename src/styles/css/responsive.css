@@ -1,0 +1,206 @@
+/* ==================Mobile view css start ==================*/
+
+@media only screen and (max-width: 768px) {
+  .lead-q-head hr {
+    width: 70%;
+    margin: auto;
+  }
+
+  .lead-slide .slick-dots {
+    bottom: -53px;
+  }
+
+  .lead-hide-cont {
+    --WebkitBoxOrient: 'vertical';
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .lead-hide-show-btn {
+    width: 100%;
+    text-align: right;
+    color: #0b51b3 !important;
+  }
+
+  .lead-faq-head {
+    font-size: 18px;
+  }
+
+  .lead-faq-tit {
+    font-size: 15px;
+  }
+
+  .accre-bx {
+    padding: 0px 10px;
+  }
+
+  .home-colle-call {
+    margin-right: 0px;
+  }
+
+  /* Header Responsive */
+
+
+
+  header {
+    height: 75px;
+    width: 100%;
+  }
+
+  .head-nav {
+    margin-top: -0.1rem;
+  }
+
+  .web-logo {
+    display: none;
+  }
+
+  .mob-logo {
+    display: block !important;
+    margin-left: 2rem;
+  }
+
+  .head-sec {
+    padding: 15px 10px;
+    background: #fff;
+    border: unset;
+  }
+  .nav-items {
+    padding: 0 10px;
+}
+
+  .locat-drop {
+    box-shadow: unset;
+    padding: 5px;
+    padding-left: 30px;
+    border: 1px solid #ABABAB;
+  }
+  .tab-buttons .tab-btn {
+    font-size: 12px;
+    padding: 5px 4px;
+}
+.speci-serach {
+  padding: 0.8rem;
+  border-radius: unset;
+}
+.specrialist-search .relative {
+  width: 100%;
+}
+.speci-serach .locat-drop {
+  width: 100px !important;
+  font-size: 14px;
+}
+.drop-arrow{
+  width: 11px;
+  height: 6px;
+  top: 13px !important;
+}
+/* .specrialist-search .drop-arrow{
+  top: 13px !important;
+  width: 11px !important;
+  height: 6px !important;
+} */
+.specrialist-search .w-48 {
+  padding: 5px !important;
+}
+.specrialist-search .start-2 {
+  top: 8px;
+}
+.recent-btn {
+  margin-left: unset;
+  margin-right: 7px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+.f-list-cont h3 {
+  font-size: 18px;
+  margin-bottom: 0.2rem;
+}
+.bottom-footer p {
+  font-size: 15px;
+  padding-right: 0;
+  padding-top: 0.5rem;
+}
+.commn-btn {
+  margin-top: 0.5rem;
+}
+.alpha-popup {
+  width: 95%;
+  padding: 10px;
+}
+.alpha-btns .tab-buttons .tab-btn {
+  font-size: 13px;
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+.alpha-letter .recent-btn {
+  font-size: 13px;
+  margin-right: 18px;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  padding: 0.2rem !important;
+}
+.alpha-heading {
+  font-size: 18px;
+}
+.alpha-diseases .recent-btn, .alpha-category .recent-btn {
+  margin-top: 15px;
+  width: 140px;
+  padding: 0.3rem 0.2rem;
+  font-size: 13px;
+}
+.test-detail-sec {
+  padding: 0 10px;
+}
+.test-detail-head {
+  flex-direction: column-reverse;
+  justify-content:unset;
+  align-items: unset;
+  gap: 8px;
+}
+.test-detail-sec a {
+  margin-left: unset;
+  margin-right: 0.5rem;
+}
+.footer-sec {
+  padding-top: 1rem;
+}
+.tab-buttons {
+  padding: 0 0.227rem;
+}
+.location-popup {
+  padding: 10px !important;
+}
+.location-list {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.location-list p {
+  font-size: 13px;
+}
+.city-list {
+  justify-content:unset;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.list-feature-drop {
+  padding: 0 10px;
+}
+.t-search-result {
+  margin-top: 1rem;
+  align-items: baseline;
+}
+.pagination a {
+  border-radius: 8px;
+  padding: 0px 8px;
+}
+
+
+}
+
+/* ==================Mobile view css end ==================*/

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_14769" data-name="Rectangle 14769" width="30" height="30" transform="translate(1138 138)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_23" data-name="Mask Group 23" transform="translate(-1138 -138)" clip-path="url(#clip-path)">
+    <path id="Icon_akar-download" data-name="Icon akar-download" d="M12.5,15.9V4.5m0,11.4L8.7,12.1m3.8,3.8,3.8-3.8M3,17.8l.59,2.361A1.9,1.9,0,0,0,5.433,21.6H19.567a1.9,1.9,0,0,0,1.843-1.439L22,17.8" transform="translate(1140.5 139.264)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+  </g>
+</svg>

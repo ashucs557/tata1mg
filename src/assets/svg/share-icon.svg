@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_14765" data-name="Rectangle 14765" width="30" height="30" transform="translate(1138 138)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_19" data-name="Mask Group 19" transform="translate(-1138 -138)" clip-path="url(#clip-path)">
+    <g id="Icon_feather-share-2" data-name="Icon feather-share-2" transform="translate(1137.804 139.767)">
+      <path id="Path_15" data-name="Path 15" d="M28.815,6.157A3.157,3.157,0,1,1,25.657,3,3.157,3.157,0,0,1,28.815,6.157Z" transform="translate(-5.371)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_16" data-name="Path 16" d="M10.815,16.657A3.157,3.157,0,1,1,7.657,13.5,3.157,3.157,0,0,1,10.815,16.657Z" transform="translate(0 -3.133)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_17" data-name="Path 17" d="M28.815,27.157A3.157,3.157,0,1,1,25.657,24,3.157,3.157,0,0,1,28.815,27.157Z" transform="translate(-5.371 -6.266)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_18" data-name="Path 18" d="M12.885,17.132l7.188,4.189M20.063,9.765l-7.178,4.189" transform="translate(-2.502 -2.018)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
