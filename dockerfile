@@ -1,9 +1,9 @@
 # Step 1: Build the Next.js app
 # Use an official Node.js runtime as a parent image
-FROM node:18-alpine AS builder
+FROM node:18.17.1-alpine AS builder
 
 # Set the working directory inside the container
-WORKDIR /tata1mg
+WORKDIR /app
 
 # Copy package.json and package-lock.json first (for better caching)
 COPY package.json package-lock.json ./
@@ -21,7 +21,7 @@ RUN npm run build
 FROM node:18-alpine AS runner
 
 # Set the working directory inside the container
-WORKDIR /tata1mg
+WORKDIR /app
 
 # Copy built assets and node_modules from the builder stage
 COPY --from=builder /app/.next ./.next
