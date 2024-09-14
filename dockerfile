@@ -21,7 +21,7 @@ RUN npm run build
 FROM node:18-alpine AS runner
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /tata1mggit
 
 # Copy built assets and node_modules from the builder stage
 COPY --from=builder /app/.next ./.next
