@@ -11,8 +11,6 @@ COPY package.json package-lock.json ./
 # Copy the rest of the application code
 COPY . .
 
-# Build the server.js app
-RUN npm run build
 
 # Step 2: Create a smaller image for running the app
 FROM node:18-alpine AS runner
