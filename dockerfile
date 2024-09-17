@@ -16,12 +16,10 @@ COPY . .
 FROM node:18-alpine AS runner
 
 # Set the working directory inside the container
-WORKDIR /tata1mggit
+WORKDIR /app
 
 # Copy built assets and node_modules from the builder stage
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app ./
 
 # Expose port 3000 to the outside world
 EXPOSE 3000
