@@ -13,7 +13,7 @@ COPY . .
 
 
 # Step 2: Create a smaller image for running the app
-FROM node:18-alpine AS runner
+FROM node:18.17.1-alpine AS runner
 
 # Set the working directory inside the container
 WORKDIR /app
