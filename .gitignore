@@ -48,7 +48,7 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
-.next*
+
 *.next
 /.next/
 
