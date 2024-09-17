@@ -15,3 +15,6 @@ logs
 # Ignore Dockerfile and .dockerignore (optional)
 Dockerfile
 .dockerignore
+node_modules
+npm-debug.log
+.DS_Store
